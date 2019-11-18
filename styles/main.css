@@ -80,13 +80,21 @@ h1, h2, h3, h4, h5, h6 {
 /*
   Sections
 */
-
-.section {
-  font-size: 4.2rem;
-  min-height: 70vh;
+.section-head {
+  font-size: 3.8rem;
+  min-height: 30vh;
   position: relative;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  /* background: url(sweettexture.jpg); */
+}
+.section {
+  font-size: 3.6rem;
+  min-height: 12vh;
+  position: relative;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
 }
 
 .section--alignCentered {
@@ -115,8 +123,8 @@ h1, h2, h3, h4, h5, h6 {
 .section__exampleWrapper,
 .section__example {
   display: inline-block;
-  height: 35rem;
-  width: 35rem;
+  height: 20rem;
+  width: 20rem;
 }
 
 .section__exampleWrapper {
@@ -137,14 +145,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section__exampleTitle{
-  font-size: 3.4rem;
+  font-size: 4rem;
   text-align: center;
-  text-transform: uppercase;
   width: 90%;
 }
 
 .section__exampleImage {
-  opacity: 0.25;
+  opacity: 0.50;
   width: 250%;
   margin-left: -50%;
   margin-top: -50%;
@@ -156,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .section__heading--largest {
   float: left;
-  font-size: 5rem;
+  font-size: 4rem;
   margin-left: 2rem;
 }
 
