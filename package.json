@@ -5,6 +5,13 @@
   "main": "index.js",
   "repository": "https://github.com/pnwlady/janicelaursenlmp.git",
   "author": "Heidi Laursen <heidilaursen@yahoo.com>",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "aws s3 sync build/ s3://janicelaursenlmp.com",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "license": "MIT",
   "private": false
 }
