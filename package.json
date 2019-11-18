@@ -8,7 +8,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "aws s3 sync build/ s3://janicelaursenlmp.com",
+    "deploy": "aws s3 sync . s3://janicelaursenlmp.com",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

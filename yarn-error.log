@@ -1,0 +1,48 @@
+Arguments: 
+  /usr/local/Cellar/node/12.12.0/bin/node /usr/local/Cellar/yarn/1.19.1/libexec/bin/yarn.js run deploy
+
+PATH: 
+  /Users/Heidi.laursen/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.12.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/Heidi.laursen/github/janicelaursenlmp/package.json: Unexpected token / in JSON at position 321
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.19.1/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.19.1/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.19.1/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "janicelaursenlmp",
+    "version": "1.0.0",
+    "description": "massage site",
+    "main": "index.js",
+    "repository": "https://github.com/pnwlady/janicelaursenlmp.git",
+    "author": "Heidi Laursen <heidilaursen@yahoo.com>",
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      // "deploy": "aws s3 sync build/ s3://janicelaursenlmp.com",
+      "deploy": "aws s3 sync / s3://janicelaursenlmp.com",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "license": "MIT",
+    "private": false
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
