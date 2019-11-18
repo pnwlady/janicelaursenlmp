@@ -1,0 +1,10 @@
+{
+  "name": "janicelaursenlmp",
+  "version": "1.0.0",
+  "description": "massage site",
+  "main": "index.js",
+  "repository": "https://github.com/pnwlady/janicelaursenlmp.git",
+  "author": "Heidi Laursen <heidilaursen@yahoo.com>",
+  "license": "MIT",
+  "private": false
+}
