@@ -186,53 +186,26 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 3rem;
 }
 
-
-/*
-  Modal
-*/
-
-.modal--closed {
-  display: none;
+.nobullet {
+  list-style-type: none;
 }
 
-.modal--open {
-  display: block;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 100;
-}
-
-.modal__closeButton {
-  position: absolute;
-  right: 2rem;
-  top: 5rem;
-  font-size: 4rem;
-  z-index: 1;
-  curson: pointer;
-}
-
-.modal__text {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 2.4rem;
-  padding: 2rem;
-  width: 66%;
-}
-
-.modal__link {
+button {
+  border: 2px solid black;
   background-color: white;
-  border-radius: 4px;
-  padding: 0.4rem 1rem;
-  text-transform: uppercase;
-  text-decoration: none;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #4CAF50;
+  color: green;
+  border-radius: 4%;
 }
-
-.modal__image {
-  opacity: 0.2;
+button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+button > a {
+  text-decoration: none;
+  color: black;
 }
