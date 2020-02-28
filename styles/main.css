@@ -138,10 +138,10 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-.section__example:active {
+.section__example:hover {
   transition: 0.05s all;
-  width: 34rem;
-  height: 34rem;
+  width: 24rem;
+  height: 24rem;
 }
 
 .section__exampleTitle{
