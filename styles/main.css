@@ -23,6 +23,11 @@
 .background--skyBlue {
   background-color: rgb(52, 152, 219);
 }
+.background--image {
+  height: 60vh;
+  width: 100%;
+  background: url(../images/hands1.jpg);
+}
 
 .color--skyBlue {
   color: rgb(52, 152, 219);
@@ -86,7 +91,6 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background: url(/images/hands1.JPG);
 }
 .section {
   font-size: 3.6rem;
