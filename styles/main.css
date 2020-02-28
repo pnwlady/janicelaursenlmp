@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  /* background: url(sweettexture.jpg); */
+  background: url(/images/hands1.JPG);
 }
 .section {
   font-size: 3.6rem;
