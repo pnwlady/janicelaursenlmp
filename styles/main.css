@@ -88,6 +88,25 @@ p {
   overflow: auto;
 }
 
+/*
+  Show more
+*/
+#more {display: none;}
+
+#showMoreButton {
+  color: white;
+  border: rgb(52, 152, 219);
+  background: rgb(52, 152, 219);
+  width: 175px;
+  margin: 20px;
+  padding:10px;
+justify-content: center;
+}
+#showMoreButton:hover {
+  color: grey;
+  background: rgb(236, 240, 241);
+  border: rgb(52, 152, 219);
+}
 
 /*
   Sections
