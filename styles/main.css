@@ -24,12 +24,29 @@
   background-color: rgb(52, 152, 219);
 }
 .background--image {
-  min-height: 60vh;
+  min-height: 30vh;
   width: 100%;
   background: url(../images/hands_header.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  margin: 0 auto;
+}
+@media screen and (max-width: 450px) {
+  .background--image {
+    min-height: 60vh;
+  }
+}
+.photo-credit {
+  font-size: 1.4rem;
+  color:blanchedalmond;
+  float: right;
+  display: block;
+  margin-right:20px;
+}
+@media screen and (max-width: 450px) {
+  .photo-credit {
+    margin-top: -20px;
+  }
 }
 
 .color--skyBlue {
@@ -64,7 +81,13 @@ html {
 
 body {
   font-family: 'Cardo', serif;
-  margin: 0;
+  margin: 0 auto;
+
+}
+@media (max-width: 450px) { 
+  body {
+    width: 70vw;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -74,6 +97,10 @@ h1, h2, h3, h4, h5, h6 {
 p {
   line-height: 1.3;
   font-size: 2rem;
+}
+.description_small {
+  font-size: 2.6rem;
+  line-height: 1.5;
 }
 
 /*
@@ -100,7 +127,7 @@ p {
   width: 175px;
   margin: 20px;
   padding:10px;
-justify-content: center;
+  justify-content: center;
 }
 #showMoreButton:hover {
   color: grey;
@@ -113,18 +140,28 @@ justify-content: center;
 */
 .section-head {
   font-size: 4rem;
-  height: 50vh;
-  min-height: 45vh;
   position: relative;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+@media screen and (max-width: 450px) {
+  .section-head {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
 }
 .section {
   font-size: 3.6rem;
   min-height: 12vh;
   position: relative;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+@media screen and (max-width: 450px) {
+  .section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
 }
 
 .section--alignCentered {
@@ -143,9 +180,15 @@ justify-content: center;
 }
 .section__text--header {
   position: absolute;
-  top: 40%;
-  left: 40%;
+  top: 20%;
+  left: 30%;
   transform: translate(-40%, -40%);
+}
+@media screen and (max-width: 450px) {
+  .section__text--header {
+    top: 40%;
+    left: 40%;
+  }
 }
 
 .section__text--centered {
