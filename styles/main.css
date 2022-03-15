@@ -31,7 +31,7 @@
   background-attachment: fixed;
   margin: 0 auto;
 }
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 420px) {
   .background--image {
     min-height: 60vh;
   }
@@ -43,7 +43,7 @@
   display: block;
   margin-right:20px;
 }
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 420px) {
   .photo-credit {
     margin-top: -20px;
   }
@@ -82,11 +82,10 @@ html {
 body {
   font-family: 'Cardo', serif;
   margin: 0 auto;
-
 }
-@media (max-width: 450px) { 
+@media (min-width: 420px) { 
   body {
-    width: 70vw;
+    width: 80vw;
   }
 }
 
@@ -144,7 +143,7 @@ p {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 420px) {
   .section-head {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -157,7 +156,7 @@ p {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 420px) {
   .section {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -184,7 +183,7 @@ p {
   left: 30%;
   transform: translate(-40%, -40%);
 }
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 420px) {
   .section__text--header {
     top: 40%;
     left: 40%;
